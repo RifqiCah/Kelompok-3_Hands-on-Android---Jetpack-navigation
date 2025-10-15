@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun SettingsScreen() {
-    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+    Box(    Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Text("Settings Screen", style = MaterialTheme.typography.headlineSmall)
     }
 }
